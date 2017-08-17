@@ -1,0 +1,23 @@
+uuid: a2bf4efc-a3b6-417a-b76b-532d9f595a92
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - portfolio_theme
+id: sitebranding_2
+theme: portfolio_theme
+region: footer
+weight: -1
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }
